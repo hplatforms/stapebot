@@ -3,6 +3,10 @@
 
 Telegram RoBot to Upload Streamtape URL.
 
+#### Deploy
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sarfaraz-Stark/stapebot)
+
 #### Features:
 
 👉 Uploading Streamtape.com url using [lk21](https://pypi.org/project/lk21/)
