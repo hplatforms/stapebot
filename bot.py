@@ -9,20 +9,20 @@ from hachoir.parser import createParser
 from PIL import Image
 
 # Configs
-API_HASH = os.environ['08f423a998c6b376da6393c909b5ea5f'] # Api hash
-APP_ID = int(os.environ['18873383']) # Api id/App id
-BOT_TOKEN = os.environ['2141166851:AAHjEtb9wUeYk5K_7QwSuQ1fD57qGAo5UvU'] # Bot token
-OWNER_ID = int(os.environ['1120608892']) # Your telegram id
-AS_DOC = os.environ['False'] # Upload method. If True: will send as document | If False: will send as video
-DEFAULT_THUMBNAIL = os.environ['https://telegra.ph/file/72a5886a210cd42568618.jpg'] # Default thumbnail. Used if bot can't find streamtape video thumbnail
+API_HASH = os.environ['API_HASH'] # Api hash
+APP_ID = int(os.environ['APP_ID']) # Api id/App id
+BOT_TOKEN = os.environ['BOT_TOKEN'] # Bot token
+OWNER_ID = int(os.environ['OWNER_ID']) # Your telegram id
+AS_DOC = os.environ['AS_DOC'] # Upload method. If True: will send as document | If False: will send as video
+DEFAULT_THUMBNAIL = os.environ['DEFAULT_THUMBNAIL'] # Default thumbnail. Used if bot can't find streamtape video thumbnail
 
 # Buttons
 START_BUTTONS=[
     [
-        InlineKeyboardButton("Source", url="https://github.com/X-Gorn/StreamtapeLoader"),
-        InlineKeyboardButton("Project Channel", url="https://t.me/xTeamBots"),
+        InlineKeyboardButton("Rate Me 🌟", url="https://t.me/tlgrmcbot?start=DowntoStreamtape_Bot-review"),
+        InlineKeyboardButton("Update Channel", url="https://t.me/BlueWhaleBots"),
     ],
-    [InlineKeyboardButton("Author", url="https://t.me/xgorn")],
+    [InlineKeyboardButton("Author", url="https://t.me/SarfarazStark")],
 ]
 
 # Helpers
