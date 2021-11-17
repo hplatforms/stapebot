@@ -7,9 +7,9 @@
     "streamtape",
     "downloader"
   ],
-  "success_url": "https://github.com/sarfarazstark/stapebot",
-  "website": "https://github.com/SarfarazStark",
-  "repository": "https://github.com/sarfarazstark/stapebot",
+  "success_url": "https://github.com/Sarfaraz-Stark/stapebot",
+  "website": "https://github.com/Sarfaraz-Stark",
+  "repository": "https://github.com/Sarfaraz-Stark/stapebot",
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
@@ -33,7 +33,7 @@
     },
     "DEFAULT_THUMBNAIL": {
       "description": "Default Thumbnail if bot can't find streamtape video thumbnail",
-      "value": "https://telegra.ph/file/7adee9735e65353398942.jpg"
+      "value": "https://telegra.ph/file/72a5886a210cd42568618.jpg"
     }
   },
   "addons": [
